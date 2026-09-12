@@ -1,5 +1,5 @@
 {
-    "version": "2.7.0-6ac8933",
+    "version": "2.7.0-da367c2",
     "description": "Fast, compact image and animation viewer. Can be used as a standalone application or integrated as a Total Commander Lister plugin.",
     "homepage": "https://www.nyam.pe.kr/dev/imagine/",
     "license": {
@@ -11,8 +11,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://raw.githubusercontent.com/nyam1003/imagine/6ac8933b7c198e860aa55670fede5c45341f9379/x64/Imagine_2.7.0_x64_Unicode_Full.zip",
-            "hash": "2b2248ad179dbd14232a8a83c1bb6710ad439539e6eda2394fb0c35941e76a9e",
+            "url": "https://raw.githubusercontent.com/nyam1003/imagine/da367c2ec27b08bd4fa11ed2f2baad0982aefdc4/x64/Imagine_2.7.0_x64_Unicode_Full.zip",
+            "hash": "c9f5d45bfa7dafc1d86354cbd27c362941e9aab2748da4f75d4a413f72a19b2a",
             "bin": [
                 "Imagine64.exe",
                 [
@@ -28,8 +28,8 @@
             ]
         },
         "32bit": {
-            "url": "https://raw.githubusercontent.com/nyam1003/imagine/6ac8933b7c198e860aa55670fede5c45341f9379/Imagine_2.7.0_Unicode_Full.zip",
-            "hash": "0484f0ee315c97b8d22d3a081ebd83e554cc4908ca949c4e674bc6e2f3a93871",
+            "url": "https://raw.githubusercontent.com/nyam1003/imagine/da367c2ec27b08bd4fa11ed2f2baad0982aefdc4/Imagine_2.7.0_Unicode_Full.zip",
+            "hash": "004ea64205f63f7e78cc030aa46ceb3d04602e7ebd814bcacd741c812a91aa7c",
             "bin": "Imagine.exe",
             "shortcuts": [
                 [
@@ -39,8 +39,8 @@
             ]
         },
         "arm64": {
-            "url": "https://raw.githubusercontent.com/nyam1003/imagine/6ac8933b7c198e860aa55670fede5c45341f9379/arm64/Imagine_2.7.0_arm64_Unicode_Full.zip",
-            "hash": "dc560cf533df7395f7e6878617035f1a3a556f1c118ea3edc272d4b734856ff3",
+            "url": "https://raw.githubusercontent.com/nyam1003/imagine/da367c2ec27b08bd4fa11ed2f2baad0982aefdc4/arm64/Imagine_2.7.0_arm64_Unicode_Full.zip",
+            "hash": "cc3f2cbc79c68ad16e1a8e2c331a94a630afebedb8dc31d90679eacf2de27857",
             "bin": [
                 "ImagineA64.exe",
                 [
