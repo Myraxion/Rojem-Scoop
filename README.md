@@ -101,6 +101,7 @@ scoop install rojem/<manifest>
 | [MoonLight 基地版](https://github.com/qiin2333/moonlight-qt) | moonlight-foundation         | 基地版[moonlight](https://github.com/moonlight-stream/moonlight-qt)客户端，支持[官方版Sunshine](https://docs.lizardbyte.dev/projects/sunshine/latest/index.html)和[基地版Sunshine](https://sunshine-foundation.vercel.app/) | ✔       |
 | [mouse jiggler](https://github.com/arkane-systems/mousejiggler) | mouse-jiggler                | “模拟”鼠标输入来回抖动                                       | 🈚️       |
 | [Neokikoeru](https://github.com/vscodev/neokikoeru)          | neokikoeru                   | 基于云存储的 DLsite 音声作品管理和媒体播放软件               | ❌       |
+| [Netcatty](https://netcatty.app/)                            | netcatty                     | 基于 Electron、React 和 xterm.js 构建的现代化 SSH 工作空间                 | ✔       |
 | [OliveTin](https://www.olivetin.app/)                        | olivetin                     | OliveTin 提供通过网络界面安全且简单地访问预定义的 shell 命令。 | ✔       |
 | [Open Internet Explorer](https://github.com/AigioL/OpenInternetExplorer) | open-internet-explorer       | 在 Windows 11 中打开 Internet Explorer                       | 🈚️       |
 | [OpenLogi](https://github.com/AprilNEA/OpenLogi)             | openlogi                     | 基于 Rust 的原生本地罗技 (Logitech Options+) 替代工具，支持 HID++ 按键重映射、DPI 与 SmartShift 设置 | 🈚️       |
