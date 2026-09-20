@@ -140,6 +140,7 @@ scoop install rojem/<manifest>
 | [tree++](https://github.com/Water-Run/treepp)                | treepp                       | Rust 编写的增强版 Windows tree 目录树查看工具                             | 🈚️     |
 | [Tremotesf 2](https://github.com/equeim/tremotesf2)          | tremotesf                    | Bittorrent 客户端 [Transmission](https://transmissionbt.com/) 的GUI | ❌       |
 | [uLister](https://github.com/evgen0xb/uLister)               | ulister                      | Total Commander Lister plugin,uLister is a powerful document viewer which can open more than 500 file formats. | 🈚️       |
+| [Viap](https://github.com/Chunyu33/viap)                     | viap                         | Windows 应用程序管理与数据迁移工具                                        | ✔       |
 | [Wanxiang Tools](https://github.com/amzxyz/RIME-LMDG)        | wanxiang-tools               | 万象词库、刷拼音、辅助码与方案在线更新 GUI 桌面端工具                                | ❌       |
 | [WhoShitsonMyC](https://github.com/Kami958/WhoShitsonMyC)     | whoshitsonmyc                | 磁盘空间变化对比轻量小工具                                   | ❌       |
 | [Win11Debloat](https://github.com/Raphire/Win11Debloat)      | win11debloat                 | 轻量易用的 Windows 10/11 预装软件卸载、遥测禁用与系统深度精简优化工具                   | ✔       |
