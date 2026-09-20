@@ -93,6 +93,7 @@ scoop install rojem/<manifest>
 | [KoShelf](https://github.com/paviro/KoShelf)                 | koshelf                      | 基于 KOReader 元数据的个人书架、标注与阅读统计 Web 仪表盘                         | 🈚️     |
 | [KToolBox](https://github.com/Ljzd-PRO/KToolBox)             | ktoolbox                     | 高度可自定义的 Kemono / Coomer 命令行下载工具                              | ✔       |
 | [Legacinator](https://github.com/nefarius/Legacinator)       | legacinator                  | 扫描并清理遗留/过期的游戏控制器与虚拟驱动程序（ScpToolkit、ViGEmBus 等）               | 🈚️     |
+| [LightC](https://www.lightc.app/)                            | light-c                      | Windows C 盘清理工具                                              | ✔       |
 | [LinguaGacha](https://github.com/neavo/LinguaGacha)          | linguagacha                  | 使用 AI 能力一键翻译 小说、游戏、字幕 等文本内容的次世代文本翻译器 | ✔       |
 | [locale-remulator](https://github.com/InWILL/Locale_Remulator) | locale-remulator             | 系统区域和语言模拟器                                         | ✔       |
 | [LottieViewConvert](https://github.com/SwaggyMacro/LottieViewConvert) | lottieviewconvert            | Telegram 贴纸、Discord 贴纸与 Lottie 动画查看与格式转换工具                   | ❌       |
