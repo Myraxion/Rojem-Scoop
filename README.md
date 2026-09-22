@@ -128,6 +128,7 @@ scoop install rojem/<manifest>
 | [Send Windows Key](https://www.sordum.org/12894/)            | send-windows-key             | 通过命令行发送Windows按键                                    | 🈚️       |
 | [Skills Manager](https://github.com/xingkongliang/skills-manager) | skills-manager               | AI Agent 技能（Skills）跨工具管理与同步工具                   | ❌       |
 | [Skip UAC Prompt](https://www.sordum.org/16219/)             | skip-uac-prompt              | 为选定的应用程序启用或禁用 UAC，而无需完全禁用系统范围内的 UAC | ✔       |
+| [smtc2web](https://smtc2web.org)                             | smtc2web                     | 基于 Rust 的 smtc2web 实现，用于在直播软件实时显示正在播放的歌曲                     | ❌       |
 | [SoftCnKiller](https://blog.csdn.net/hfhbutn/article/details/104799162) | softcnkiller                 | 专针对国产流氓、捆绑等恶意软件的扫描、清除工具                                      | ✔       |
 | [Spotifast](https://spotifast.rocks/)                        | spotifast                    | 基于 Rust 构建的轻量级原生 Spotify 桌面客户端                               | ❌       |
 | [Steam Account Switcher](https://github.com/danielchalmers/SteamAccountSwitcher) | steam-account-switcher       | 从系统托盘快速切换多个 Steam 账号                                         | ❌       |
