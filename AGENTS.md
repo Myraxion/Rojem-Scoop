@@ -45,7 +45,9 @@
 
 - MUST 包含的字段：`version`, `description`, `homepage`, `license`, `url`/`architecture`, `hash`
 - MUST 包含 `checkver` 和 `autoupdate`（保证自动更新能力）
-- SHOULD 为 GUI 应用添加 `shortcuts` 字段
+- `bin` 与 `shortcuts` 规范：
+  - 纯 GUI 应用（如托盘工具、窗口小工具、图形客户端等无命令行交互需求的软件）：MUST NOT 添加 `bin` 字段，避免生成多余的 shim 垫片污染用户全局 `PATH` 环境；SHOULD 添加 `shortcuts` 字段
+  - CLI 工具或提供必要命令行交互能力的软件：SHOULD 添加 `bin` 字段
 - SHOULD 为需要持久化数据的应用添加 `persist` 字段
 - 持久化动态文件初始化（MUST）：当 `persist` 包含的文件在原始安装包中不存在（仅在首次运行后才生成）时，MUST 在 `pre_install` 钩子中预先在 `$persist_dir` 下建立空文件或目录（需带 `-Force` 以确保自动创建父级目录），以确保 Scoop 软链接正常工作。
 - 字段详细说明参考 `docs/scoop-wiki/App-Manifests.md`
@@ -140,6 +142,7 @@
 - MUST NOT 在清单中硬编码用户特定的路径
 - MUST NOT 省略 `hash` 字段（安全风险）
 - MUST NOT 省略 `checkver`/`autoupdate` 字段（导致无法自动更新）
+- MUST NOT 为无命令行交互需求的纯 GUI 应用添加 `bin` 字段（避免生成 shim 污染 `PATH`）
 
 ## 6. 决策原则
 
