@@ -103,6 +103,7 @@ scoop install rojem/<manifest>
 | [MineBackup](https://github.com/Leafuke/MineBackup)          | minebackup                   | Minecraft 地图存档备份与恢复 GUI 工具                                   | ❌       |
 | [MoonLight 基地版](https://github.com/qiin2333/moonlight-qt) | moonlight-foundation         | 基地版[moonlight](https://github.com/moonlight-stream/moonlight-qt)客户端，支持[官方版Sunshine](https://docs.lizardbyte.dev/projects/sunshine/latest/index.html)和[基地版Sunshine](https://sunshine-foundation.vercel.app/) | ✔       |
 | [mouse jiggler](https://github.com/arkane-systems/mousejiggler) | mouse-jiggler                | “模拟”鼠标输入来回抖动                                       | 🈚️       |
+| [MouseKeyShow](https://github.com/sjhmaster/MouseKeyShow)    | mousekeyshow                 | 轻量级高性能 Windows 屏幕按键与鼠标动作实时可视化工具                              | ❌       |
 | [Neokikoeru](https://github.com/vscodev/neokikoeru)          | neokikoeru                   | 基于云存储的 DLsite 音声作品管理和媒体播放软件               | ❌       |
 | [Netcatty](https://netcatty.app/)                            | netcatty                     | 基于 Electron、React 和 xterm.js 构建的现代化 SSH 工作空间                 | ✔       |
 | [OliveTin](https://www.olivetin.app/)                        | olivetin                     | OliveTin 提供通过网络界面安全且简单地访问预定义的 shell 命令。 | ✔       |
