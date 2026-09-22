@@ -149,6 +149,7 @@ scoop install rojem/<manifest>
 | [wsw](https://github.com/ferama/wsw)                         | wsw                          | 小巧实用的 Windows 服务包装工具，可将任意可执行程序注册为系统服务                        | ❌       |
 | [wx_key](https://github.com/ycccccccy/wx_key/)               | wx-key                       | 获取[微信](https://weixin.qq.com/)4.0版本以上数据库密钥和图片密钥的工具 | ✔       |
 | [XiaoYao_QuickJump](https://github.com/lch319/XiaoYao_QuickJump) | xiaoyao-quickjump            | 在打开或保存对话框中，快速跳转到当前 资源管理器/TC/DO/XY/Q-Dir中打开的文件夹路径 | ✔       |
+| [YueYuan](https://github.com/hiforrest/yueyuan)              | yueyuan                      | 基于霞鹜 975 圆与 Dongle 制作的开源中文字体修改版                              | 🈚️     |
 | [Zed Globalization](https://github.com/x6nux/zed-globalization) | zedg                         | Zed 编辑器开源汉化与多语言本地化版本                                         | ❌       |
 
 > **Persist 列说明**：`✔` = Scoop 可管理持久化数据；`❌` = 有持久化数据但 Scoop 无法管理（如存于 `AppData\Roaming`）；`🈚️` = 应用无需要持久化的数据。
