@@ -151,6 +151,7 @@ scoop install rojem/<manifest>
 | [XiaoYao_QuickJump](https://github.com/lch319/XiaoYao_QuickJump) | xiaoyao-quickjump            | 在打开或保存对话框中，快速跳转到当前 资源管理器/TC/DO/XY/Q-Dir中打开的文件夹路径 | ✔       |
 | [YueYuan](https://github.com/hiforrest/yueyuan)              | yueyuan                      | 基于霞鹜 975 圆与 Dongle 制作的开源中文字体修改版                              | 🈚️     |
 | [Zed Globalization](https://github.com/x6nux/zed-globalization) | zedg                         | Zed 编辑器开源汉化与多语言本地化版本                                         | ❌       |
+| [丹青日志 LogLens](https://github.com/14uncle/danqing-log)       | danqing-log                  | Windows 大文件日志与 JSONL 查看分析器                                   | ❌       |
 
 > **Persist 列说明**：`✔` = Scoop 可管理持久化数据；`❌` = 有持久化数据但 Scoop 无法管理（如存于 `AppData\Roaming`）；`🈚️` = 应用无需要持久化的数据。
 
