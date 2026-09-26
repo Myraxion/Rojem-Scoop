@@ -37,6 +37,7 @@ scoop install rojem/<manifest>
 | [7-Zip Zstandard](https://mcmilk.de/projects/7-Zip-zstd/)    | 7zip-zstd                    | 一款基于 [7-Zip](https://www.7-zip.org/) 的多格式归档工具，在保持高压缩比的同时，增加了对 Zstandard、Brotli、LZ4、LZ5、Lizard 和 Fast-LZMA2 等现代压缩编解码器的支持 | ✔       |
 | [7-zip-zstd Codecs](https://github.com/mcmilk/7-Zip-zstd)    | 7zip-zstd-codecs             | 为`main` [7-Zip](https://www.7-zip.org/) 添加附加编解码器，包括`Zstandard`、`Brotli`、`Lz4`、`Lz5`和`Lizard` | 🈚️       |
 | [7-Zip-zstd TotalCmd](https://github.com/mcmilk/7-Zip-zstd)  | 7zip-zstd-totalcmd           | 替换 [Total Commander](https://www.ghisler.com/) 的`tc7z.dll` ，支持 [7-Zip](https://www.7-zip.org/) 的Zstandard（`Zstd`、`Brotli`、`Lz4`、`Lz5`、`Lizard`）格式 | 🈚️       |
+| [AF Media Bar](https://github.com/Fervent-Tempo/AF-Media-Bar) | af-media-bar                 | Windows 10/11 桌面媒体控制与轻度美化工具                                  | ❌       |
 | [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe/releases)    | ahk2exe                      | 官方的 [AutoHotkey](https://www.autohotkey.com/) 脚本编译器  | 🈚️       |
 | [Apollo Profile Manager](https://github.com/ClassicOldSong/ApolloProfileManager) | apollo-profile-manager       | 管理和自动交换 [Apollo](https://github.com/ClassicOldSong/Apollo)不同客户端之间的游戏配置文件、存档文件、模组集和其他用户数据的工具 | ✔       |
 | [AutoHotkey_H](https://github.com/thqby/AutoHotkey_H)        | autohotkey-h                 | 一个具有多线程等附加功能的[AHK V2](https://www.autohotkey.com/v2/)分支 | 🈚️       |
@@ -139,6 +140,7 @@ scoop install rojem/<manifest>
 | [Switcheroo](https://github.com/coezbek/switcheroo)          | switcheroo                   | Windows 窗口切换器，通过快速键入过滤替代 Alt+Tab                             | ✔       |
 | [tinyMediaManager](https://www.tinymediamanager.org/)        | tinymediamanager             | 多功能媒体管理工具，支持为 Kodi、Plex、Emby 等刮削和整理影视元数据                     | ✔       |
 | [tmd](https://github.com/unkmonster/tmd)                     | tmd                          | Twitter/X 媒体资源下载命令行工具，支持通过用户时间线和列表批量下载                       | ❌       |
+| [Token Monitor](https://github.com/Javis603/token-monitor)   | token-monitor                | 跨设备聚合各类 AI 编程工具实时用量的桌面小部件                                    | ❌       |
 | [Traynard](https://github.com/tabris17/traynard)             | traynard                     | 将任意应用窗口最小化到系统托盘                               | ✔       |
 | [Tree (GnuWin32)](https://sourceforge.net/projects/gnuwin32/) | tree                         | 以树状缩进格式递归列出目录及文件结构的命令行工具                                     | 🈚️     |
 | [tree++](https://github.com/Water-Run/treepp)                | treepp                       | Rust 编写的增强版 Windows tree 目录树查看工具                             | 🈚️     |
