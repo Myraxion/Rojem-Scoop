@@ -1,12 +1,12 @@
 {
-    "version": "1.10.1",
+    "version": "1.11.0",
     "description": "A modern, efficient desktop GUI for Scoop, search, install, update and manage Windows packages without touching the terminal.",
     "homepage": "https://github.com/AmarBego/Rscoop",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AmarBego/Rscoop/releases/download/v1.10.1/rscoop.exe",
-            "hash": "abf7f2a9ba30dc27d60cedf5e5c9f0bcac350c8ee370cb180c3d5558ff5dde96"
+            "url": "https://github.com/AmarBego/Rscoop/releases/download/v1.11.0/rscoop.exe",
+            "hash": "661a38ffa431571ea972d14384a3fb73744ce5f6c1b949e34727633788ecbb0f"
         }
     },
     "bin": "rscoop.exe",
