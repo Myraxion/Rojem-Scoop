@@ -40,10 +40,10 @@ scoop install rojem/<manifest>
 | [AF Media Bar](https://github.com/Fervent-Tempo/AF-Media-Bar) | af-media-bar                 | Windows 10/11 桌面媒体控制与轻度美化工具                                  | ❌       |
 | [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe/releases)    | ahk2exe                      | 官方的 [AutoHotkey](https://www.autohotkey.com/) 脚本编译器  | 🈚️       |
 | [Apollo Profile Manager](https://github.com/ClassicOldSong/ApolloProfileManager) | apollo-profile-manager       | 管理和自动交换 [Apollo](https://github.com/ClassicOldSong/Apollo)不同客户端之间的游戏配置文件、存档文件、模组集和其他用户数据的工具 | ✔       |
+| [AstraGram](https://github.com/Kindness-Kismet/AstraGram-Desktop) | astragram                    | 基于 Telegram Desktop / AyuGram 的增强客户端，支持卡片式现代 UI 与自定义设置       | ✔       |
 | [AutoHotkey_H](https://github.com/thqby/AutoHotkey_H)        | autohotkey-h                 | 一个具有多线程等附加功能的[AHK V2](https://www.autohotkey.com/v2/)分支 | 🈚️       |
 | [AutoHotkey v1](https://www.autohotkey.com)                  | autohotkey1                  | [AHK v1](https://www.autohotkey.com/download/1.1/)版，与`main`中的AHK共存 | 🈚️       |
 | [AvPlay](https://github.com/anonymousjav/AvPlayRelease)     | avplay                       | 一款美观优雅的跨平台JAV播放器                               | ❌       |
-| [AyuGram Desktop Plus](https://github.com/Kindness-Kismet/AyuGramDesktop-Plus) | ayugram-plus                 | 基于 AyuGram Desktop 的 Telegram 客户端增强版本，支持卡片式现代 UI 与自定义设置      | ✔       |
 | [Azul Zulu 25](https://www.azul.com/products/zulu-community/) | zulu25-jdk                   | Azul 官方认证的 OpenJDK 25 构建版本（已移除环境变量与 PATH 设置，避免影响系统全局环境）      | 🈚️     |
 | [BilibiliHistoryFetcher](https://github.com/LifeArchiveProject/BilibiliHistoryFetcher) | bilibili-history-fetcher     | 获取b站历史记录，一键下载用户所有的视频，动态，收藏夹，找回14天内b站在屏幕上显示过的图片，生成详细的年度总结，自动化任务 | ✔       |
 | [BiliHistoryFrontend](https://github.com/LifeArchiveProject/BiliHistoryFrontend) | bilibili-history-frontend    | 基于 Vue 3 开发的 B 站历史记录分析工具的前端项目，为用户提供丰富的 B 站观看历史数据分析功能。 | ❌       |
