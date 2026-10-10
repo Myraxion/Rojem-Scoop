@@ -66,6 +66,7 @@ scoop install rojem/<manifest>
 | [DepotDownloader](https://github.com/SteamRE/DepotDownloader) | depotdownloader              | 基于 SteamKit2 库的 Steam 游戏/仓库数据包命令行下载工具                        | ❌       |
 | [DeskBox](https://deskbox.fun)                               | deskbox                      | 开源的 Windows 桌面整理与快捷栏小组件工具                                    | ❌       |
 | [Digital Clock](https://sourceforge.net/projects/digitalclock4/) | digital-clock-5              | 一款美观的可定制时钟，支持插件功能                           | ✔       |
+| [Dion](https://github.com/Myraxion/dion)                     | dion                         | 轻量高效的 UTF-8 descript.ion 注释管理命令行工具                           | 🈚️     |
 | [Discord](https://portapps.io/app/discord-portable/)         | discord                      | 便携版Discord客户端，并持久化[BetterDiscord](https://mwittrien.github.io/)插件 | ✔       |
 | [DMMGamePlayerFastLauncher](https://github.com/fa0311/DMMGamePlayerFastLauncher) | dmm-game-player-fast-launcher | DMM Game Player 高速启动器                                        | ✔       |
 | [echotrace](https://github.com/ycccccccy/echotrace)          | echotrace                    | 一个本地、安全的[微信](https://weixin.qq.com/)聊天记录导出、分析与年度报告生成工具 | ✔       |
