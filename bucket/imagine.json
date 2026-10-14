@@ -1,5 +1,5 @@
 {
-    "version": "2.7.2-0a7bce4",
+    "version": "2.7.2-20261013-0a7bce4",
     "description": "Fast, compact image and animation viewer. Can be used as a standalone application or integrated as a Total Commander Lister plugin.",
     "homepage": "https://www.nyam.pe.kr/dev/imagine/",
     "license": {
@@ -89,9 +89,9 @@
         "Plugin"
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/nyam1003/imagine/git/trees/main",
-        "regex": "\"sha\":\\s*\"(?<sha>[0-9a-f]{7})(?<longsha>[0-9a-f]{33})\"[\\s\\S]*?\"path\":\\s*\"Imagine_(?<version>[\\d.]+)_Unicode_Full\\.zip\"",
-        "replace": "${version}-${sha}"
+        "url": "https://api.github.com/repos/nyam1003/imagine/commits/main",
+        "regex": "(?s)\"sha\":\\s*\"(?<sha>[0-9a-f]{7})(?<longsha>[0-9a-f]{33})\".*?\"date\":\\s*\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T.*?\"filename\":\\s*\"Imagine_(?<version>[\\d.]+)_Unicode_Full\\.zip\"",
+        "replace": "${version}-${year}${month}${day}-${sha}"
     },
     "autoupdate": {
         "architecture": {
