@@ -141,6 +141,7 @@ scoop install rojem/<manifest>
 | [Stelliberty](https://github.com/Kindness-Kismet/Stellibert) | stelliberty                  | 现代化 [Mihomo](https://github.com/MetaCubeX/mihomo) 客户端  | ✔       |
 | [SuperMemo Toolkit](https://github.com/Zacharia2/SuperMemo-Toolkit) | supermemo-toolkit            | SuperMemo 增强工具箱（CLI/GUI），支持 EPUB 转换、Latex 渲染、sm2anki 及 AutoTTS | ❌       |
 | [Switcheroo](https://github.com/coezbek/switcheroo)          | switcheroo                   | Windows 窗口切换器，通过快速键入过滤替代 Alt+Tab                             | ✔       |
+| [Tinta](https://tinta.cc)                                    | tinta                        | 快速、轻量的 Markdown 和 Mermaid 查看器                                | ✔       |
 | [tinyMediaManager](https://www.tinymediamanager.org/)        | tinymediamanager             | 多功能媒体管理工具，支持为 Kodi、Plex、Emby 等刮削和整理影视元数据                     | ✔       |
 | [tmd](https://github.com/unkmonster/tmd)                     | tmd                          | Twitter/X 媒体资源下载命令行工具，支持通过用户时间线和列表批量下载                       | ❌       |
 | [Token Monitor](https://github.com/Javis603/token-monitor)   | token-monitor                | 跨设备聚合各类 AI 编程工具实时用量的桌面小部件                                    | ❌       |
