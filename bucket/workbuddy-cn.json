@@ -1,0 +1,38 @@
+{
+    "version": "5.8.3.41334564",
+    "description": "A full-scenario AI workbench from Tencent. (China version)",
+    "homepage": "https://www.codebuddy.cn",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.codebuddy.cn/document/term"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.codebuddy.cn/workbuddy/saas/win32-x64-user/WorkBuddy-win32-x64-user-5.8.3.41334564-db0e9b51.exe#/dl.7z",
+            "hash": "824de10f3196c501004f540eb84ee881292fef2f5df9fb3fc48af9ea5366c03c"
+        }
+    },
+    "installer": {
+        "script": [
+            "Get-Item \"$dir\\`$PLUGINSDIR\\app*.7z\" | Select-Object -First 1 | Expand-7zipArchive -DestinationPath $dir",
+            "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse -ErrorAction Ignore"
+        ]
+    },
+    "shortcuts": [
+        [
+            "WorkBuddy.exe",
+            "WorkBuddy"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.codebuddy.cn/v2/update?platform=workbuddy-win32-x64-user",
+        "regex": "WorkBuddy-win32-x64-user-(?<version>\\d+(?:\\.\\d+)+)-(?<sha>[0-9a-f]+).exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.codebuddy.cn/workbuddy/saas/win32-x64-user/WorkBuddy-win32-x64-user-$version-$matchSha.exe#/dl.7z"
+            }
+        }
+    }
+}
