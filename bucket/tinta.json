@@ -9,14 +9,20 @@
             "hash": "73b9b865d45c167a9fc482cc60b626afd75b4515ab04050ca65d62e57f50ef5f"
         }
     },
-    "pre_install": "if (!(Test-Path \"$persist_dir\\settings.ini\")) { New-Item -Path \"$persist_dir\\settings.ini\" -ItemType File -Force | Out-Null }",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\settings.ini\")) { New-Item -Path \"$persist_dir\\settings.ini\" -ItemType File -Force | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\drafts\")) { New-Item -Path \"$persist_dir\\drafts\" -ItemType Directory -Force | Out-Null }"
+    ],
     "shortcuts": [
         [
             "tinta.exe",
             "Tinta"
         ]
     ],
-    "persist": "settings.ini",
+    "persist": [
+        "settings.ini",
+        "drafts"
+    ],
     "checkver": {
         "github": "https://github.com/oipoistar/tinta"
     },
