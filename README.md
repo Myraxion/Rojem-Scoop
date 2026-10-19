@@ -131,6 +131,7 @@ scoop install rojem/<manifest>
 | [RustyStar](https://github.com/RustyStarX/RustyStar)         | rustystar                    | 基于 Rust 编写的 EnergyStar 替代品，利用 Windows 11 EcoQoS 特性优化后台能耗     | ❌       |
 | [scoop-search-multisource](https://github.com/plicit/scoop-search-multisource) | scoop-search-multisource     | 默认情况下搜索本地Scoop活动存储桶和远程 Rasa HTML scoop目录  | ❌       |
 | [Send Windows Key](https://www.sordum.org/12894/)            | send-windows-key             | 通过命令行发送Windows按键                                    | 🈚️       |
+| [Shazao](https://github.com/yakoye/Shazao-markdown)          | shazao-markdown              | 专为中文写作优化的 Markdown 编辑器                                       | ✔       |
 | [Skills Manager](https://github.com/xingkongliang/skills-manager) | skills-manager               | AI Agent 技能（Skills）跨工具管理与同步工具                   | ❌       |
 | [Skip UAC Prompt](https://www.sordum.org/16219/)             | skip-uac-prompt              | 为选定的应用程序启用或禁用 UAC，而无需完全禁用系统范围内的 UAC | ✔       |
 | [smtc2web](https://smtc2web.org)                             | smtc2web                     | 基于 Rust 的 smtc2web 实现，用于在直播软件实时显示正在播放的歌曲                     | ❌       |
