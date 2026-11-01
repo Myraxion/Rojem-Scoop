@@ -1,12 +1,12 @@
 {
-    "version": "0.83.0",
+    "version": "0.84.0",
     "description": "Real-time token, cost, and AI limits widget with multi-device sync for Claude Code, Codex, OpenCode and more.",
     "homepage": "https://github.com/Javis603/token-monitor",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Javis603/token-monitor/releases/download/v0.83.0/Token-Monitor-Setup-0.83.0.exe#/dl.7z",
-            "hash": "dde579c854c514de9ee5cf1eec688b68228f0651350f1cc9e573e442b7e5abee",
+            "url": "https://github.com/Javis603/token-monitor/releases/download/v0.84.0/Token-Monitor-Setup-0.84.0.exe#/dl.7z",
+            "hash": "80a6b92ec1e0ad8ef728fef34130cc64adfcb71b6122db0f370c70e980943eff",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         }
     },
