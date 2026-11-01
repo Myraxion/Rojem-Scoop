@@ -1,18 +1,18 @@
 {
-    "version": "0.15.0",
+    "version": "0.16.0",
     "description": "Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
     "homepage": "https://spotifast.rocks/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/crmne/spotifast/releases/download/v0.15.0/spotifast-v0.15.0-x86_64-pc-windows-msvc.zip",
-            "hash": "3f7498702962d9125709a621c87e3163782c48e34edc3e6415c3c1d2224fe294",
-            "extract_dir": "spotifast-v0.15.0-x86_64-pc-windows-msvc"
+            "url": "https://github.com/crmne/spotifast/releases/download/v0.16.0/spotifast-v0.16.0-x86_64-pc-windows-msvc.zip",
+            "hash": "b114b0ae3c466157c91f349214a2bf083e22d00866f1ce1f68d37d947e491054",
+            "extract_dir": "spotifast-v0.16.0-x86_64-pc-windows-msvc"
         },
         "arm64": {
-            "url": "https://github.com/crmne/spotifast/releases/download/v0.15.0/spotifast-v0.15.0-aarch64-pc-windows-msvc.zip",
-            "hash": "a25af4e472b78fb5658d4fd23d3135b36dfb4c1e5beffab4499493080e37b948",
-            "extract_dir": "spotifast-v0.15.0-aarch64-pc-windows-msvc"
+            "url": "https://github.com/crmne/spotifast/releases/download/v0.16.0/spotifast-v0.16.0-aarch64-pc-windows-msvc.zip",
+            "hash": "143f608fb58871ab14359282edc6091de1f1f7f1737e0f1c4f1db14ff52a1ace",
+            "extract_dir": "spotifast-v0.16.0-aarch64-pc-windows-msvc"
         }
     },
     "bin": [
