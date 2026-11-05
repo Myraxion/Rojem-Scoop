@@ -6,11 +6,10 @@
     "notes": [
         "This package provides the portable host environment and enhancements for Google Chrome.",
         "Install 'chrome-core' to inject the official Chrome binaries.",
-        "Chrome has been automatically registered in Windows App Paths for application discovery.",
-        "To support apps that hardcode the default Chrome path, create a LocalAppData junction by running:",
-        "  & '$dir\\link-localappdata.ps1'",
-        "To remove the junction:",
-        "  & '$dir\\unlink-localappdata.ps1'"
+        "To register Chrome in Windows App Paths for application discovery, run:",
+        "  reg import \"$dir\\install-reg.reg\"",
+        "To remove the registration:",
+        "  reg import \"$dir\\uninstall-reg.reg\""
     ],
     "suggest": {
         "Google Chrome Binaries": "rojem/chrome-core"
@@ -65,7 +64,7 @@
         "if (Test-Path \"$dir\\_temp\\Data\") { Copy-Item \"$dir\\_temp\\Data\" \"$dir\" -Recurse -ErrorAction SilentlyContinue }",
         "if (Test-Path \"$dir\\_temp\\Cache\") { Copy-Item \"$dir\\_temp\\Cache\" \"$dir\" -Recurse -ErrorAction SilentlyContinue }",
         "Remove-Item \"$dir\\_temp\" -Recurse -Force",
-        "Write-Host 'Registering Chrome in App Paths...' -ForegroundColor Cyan",
+        "Write-Host 'Generating registry scripts for App Paths...' -ForegroundColor Cyan",
         "$dirpath = \"$dir\\App\".Replace('\\', '\\\\')",
         "$exepath = \"$dir\\App\\chrome.exe\".Replace('\\', '\\\\')",
         "$regDir = (Resolve-Path \"$bucketsdir\\*\\scripts\\chrome-plus\" -ErrorAction SilentlyContinue | Select-Object -First 1).Path",
@@ -77,8 +76,6 @@
         "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
         "    $content | Set-Content -Path \"$dir\\$_.reg\"",
         "  }",
-        "  reg import \"$dir\\install-reg.reg\"",
-        "  Copy-Item \"$regDir\\*-localappdata.ps1\" \"$dir\" -Force",
         "}"
     ],
     "uninstaller": {
@@ -93,14 +90,9 @@
     "shortcuts": [
         [
             "App\\chrome.exe",
-            "Google Chrome"
+            "Google Chrome (Portable)"
         ]
     ],
-    "env_set": {
-        "CHROME_BIN": "$dir\\App\\chrome.exe",
-        "CHROME_EXECUTABLE": "$dir\\App\\chrome.exe",
-        "CHROME_PATH": "$dir\\App\\chrome.exe"
-    },
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Bush2021/chrome_plus/releases/download/$version/Chrome++_v$version_x86_x64_arm64.7z"
