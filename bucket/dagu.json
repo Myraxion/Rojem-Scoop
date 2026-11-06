@@ -18,6 +18,9 @@
         }
     },
     "bin": "dagu.exe",
+    "env_set": {
+        "DAGU_HOME": "$persist_dir"
+    },
     "checkver": {
         "github": "https://github.com/dagucloud/dagu"
     },
