@@ -64,6 +64,7 @@ scoop install rojem/<manifest>
 | [ComicGUISpider](https://cgs.101114105.xyz)                  | comicguispider               | 跨平台漫画/本子下载 GUI，支持拷贝漫画、Māngabz、漫画柜、动漫屋、禁漫天堂、wnacg、exhentai、nhentai、hitomi.la、kemono、danbooru 等众多站点 | ❌       |
 | [Context Menu Manager](https://github.com/Jack251970/ContextMenuManager) | context-menu-manager         | 一个管理 Windows 右键上下文菜单的程序                        | ✔       |
 | [CudaLister](https://github.com/Alexey-T/CudaLister/)        | cudalister                   | 基于 ATSynEdit 的 Total Commander Lister 插件                | 🈚️       |
+| [Dagu](https://dagu.sh)                                      | dagu                         | 轻量级无依赖的本地优先声明式 DAG 工作流引擎与调度平台                                | ❌       |
 | [DepotDownloader](https://github.com/SteamRE/DepotDownloader) | depotdownloader              | 基于 SteamKit2 库的 Steam 游戏/仓库数据包命令行下载工具                        | ❌       |
 | [DeskBox](https://deskbox.fun)                               | deskbox                      | 开源的 Windows 桌面整理与快捷栏小组件工具                                    | ❌       |
 | [Digital Clock](https://sourceforge.net/projects/digitalclock4/) | digital-clock-5              | 一款美观的可定制时钟，支持插件功能                           | ✔       |
