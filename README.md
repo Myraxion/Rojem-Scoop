@@ -72,6 +72,7 @@ scoop install rojem/<manifest>
 | [Discord](https://portapps.io/app/discord-portable/)         | discord                      | 便携版Discord客户端，并持久化[BetterDiscord](https://mwittrien.github.io/)插件 | ✔       |
 | [DMMGamePlayerFastLauncher](https://github.com/fa0311/DMMGamePlayerFastLauncher) | dmm-game-player-fast-launcher | DMM Game Player 高速启动器                                        | ✔       |
 | [echotrace](https://github.com/ycccccccy/echotrace)          | echotrace                    | 一个本地、安全的[微信](https://weixin.qq.com/)聊天记录导出、分析与年度报告生成工具 | ✔       |
+| [Ekko Studio](https://github.com/EKKOLearnAI/ekko-studio)    | ekko-studio                  | 本地优先的多智能体协作工作台与客户端                                           | ❌       |
 | [embyToLocalPlayer](https://github.com/kjtsune/embyToLocalPlayer) | emby-to-local-player        | Emby/Jellyfin/Plex 调用外部本地播放器并回传播放记录的服务脚本，需安装 Python，并在配置文件中设置播放器路径与播放器选择 | ✔       |
 | [EPUB Metadata Editor](https://github.com/benchen71/epub-metadata-editor) | epub-metadata-editor         | 编辑 EPUB 电子书元数据的图形化工具 | ❌       |
 | [ExHyperV](https://github.com/Justsenger/ExHyperV)           | exhyperv                     | 一款提供高级HyperV虚拟机功能的图形用户界面软件，例如DDA和GPU-PV。 | ✔       |
