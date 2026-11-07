@@ -6,10 +6,9 @@
 #
 # 官方测试框架（$env:SCOOP_HOME\test\Import-Bucket-Tests.ps1）的文件风格测试
 # 会递归扫描整个仓库工作树，其排除列表写死（仅 .git/、.sublime-workspace、
-# .DS_Store、supporting/validator/packages），无法排除本仓库特有的两个目录：
-#   - docs/scoop-wiki：Scoop 官方 Wiki 的 git 子模块，内容来自上游，非本仓库
+# .DS_Store、supporting/validator/packages），无法排除本仓库特有的目录：
 #   - .claude/：Claude Code 本地工具配置，已加入 .gitignore
-# 若继续复用官方入口，以上目录会导致本地 test.ps1 出现 3 个误报失败。
+# 若继续复用官方入口，以上目录会导致本地 test.ps1 出现误报失败。
 # 因此这里内联官方的文件风格测试与 manifest 校验，并追加对上述目录的排除。
 
 param(
@@ -24,7 +23,6 @@ BeforeDiscovery {
         '\.sublime-workspace$',
         '\.DS_Store$',
         'supporting(\\|/)validator(\\|/)packages(\\|/)*',
-        '[\\/]docs[\\/]scoop-wiki[\\/]',
         '[\\/]\.claude[\\/]'
     )
     $repo_files = (Get-ChildItem $BucketPath -File -Recurse).FullName |

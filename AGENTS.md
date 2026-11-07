@@ -12,7 +12,6 @@
 ├── bin/                 # 仓库维护工具脚本（Scoop 官方工具及自定义维护脚本）
 ├── scripts/             # 清单辅助脚本（安装钩子引用的外部脚本）
 ├── deprecated/          # 已废弃的清单
-├── docs/scoop-wiki/     # Scoop 官方 Wiki 镜像（只读参考）
 └── .github/             # CI 工作流、Issue/PR 模板
 ```
 
@@ -50,9 +49,9 @@
   - CLI 工具或提供必要命令行交互能力的软件：SHOULD 添加 `bin` 字段
 - SHOULD 为需要持久化数据的应用添加 `persist` 字段
 - 持久化动态文件初始化（MUST）：当 `persist` 包含的文件在原始安装包中不存在（仅在首次运行后才生成）时，MUST 在 `pre_install` 钩子中预先在 `$persist_dir` 下建立空文件或目录（需带 `-Force` 以确保自动创建父级目录），以确保 Scoop 软链接正常工作。
-- 字段详细说明参考 `docs/scoop-wiki/App-Manifests.md`
-- 自动更新配置参考 `docs/scoop-wiki/App-Manifest-Autoupdate.md`
-- 安装脚本可用变量参考 `docs/scoop-wiki/Pre-Post-(un)install-scripts.md`
+- 字段详细说明参考 [App-Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
+- 自动更新配置参考 [App-Manifest-Autoupdate](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate)
+- 安装脚本可用变量参考 [Pre-Post-(un)install-scripts](https://github.com/ScoopInstaller/Scoop/wiki/Pre-Post-(un)install-scripts)
 
 ### README 维护规则
 
@@ -179,16 +178,16 @@
 
 ## 7. 文档索引
 
-### Scoop 官方知识库（`docs/scoop-wiki/`）
+### Scoop 官方知识库（在线文档）
 
-| 主题 | 文档 |
+| 主题 | 在线文档 |
 |---|---|
-| 清单字段参考 | `App-Manifests.md` |
-| 自动更新配置 | `App-Manifest-Autoupdate.md` |
-| 安装脚本变量 | `Pre-Post-(un)install-scripts.md` |
-| 持久化数据 | `Persistent-data.md` |
-| Bucket 机制 | `Buckets.md` |
-| 依赖管理 | `Dependencies.md` |
+| 清单字段参考 | [App-Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests) |
+| 自动更新配置 | [App-Manifest-Autoupdate](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate) |
+| 安装脚本变量 | [Pre-Post-(un)install-scripts](https://github.com/ScoopInstaller/Scoop/wiki/Pre-Post-(un)install-scripts) |
+| 持久化数据 | [Persistent-data](https://github.com/ScoopInstaller/Scoop/wiki/Persistent-data) |
+| Bucket 机制 | [Buckets](https://github.com/ScoopInstaller/Scoop/wiki/Buckets) |
+| 依赖管理 | [Dependencies](https://github.com/ScoopInstaller/Scoop/wiki/Dependencies) |
 
 ### 项目文件
 
