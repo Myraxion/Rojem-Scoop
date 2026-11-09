@@ -48,7 +48,9 @@
   - 纯 GUI 应用（如托盘工具、窗口小工具、图形客户端等无命令行交互需求的软件）：MUST NOT 添加 `bin` 字段，避免生成多余的 shim 垫片污染用户全局 `PATH` 环境；SHOULD 添加 `shortcuts` 字段
   - CLI 工具或提供必要命令行交互能力的软件：SHOULD 添加 `bin` 字段
 - SHOULD 为需要持久化数据的应用添加 `persist` 字段
-- 持久化动态文件初始化（MUST）：当 `persist` 包含的文件在原始安装包中不存在（仅在首次运行后才生成）时，MUST 在 `pre_install` 钩子中预先在 `$persist_dir` 下建立空文件或目录（需带 `-Force` 以确保自动创建父级目录），以确保 Scoop 软链接正常工作。
+- 持久化初始化规则：
+  - 文件（MUST）：当 `persist` 目标为动态生成的文件时，因 Scoop 默认会误建为目录，MUST 在 `pre_install` 中建立空文件（需带 `-Force` 以确保自动创建父级目录）
+  - 目录（MUST NOT）：Scoop 默认会自动按目录创建并建立软链接，MUST NOT 在 `pre_install` 中多余预建目录，避免过度设计
 - 字段详细说明参考 [App-Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
 - 自动更新配置参考 [App-Manifest-Autoupdate](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate)
 - 安装脚本可用变量参考 [Pre-Post-(un)install-scripts](https://github.com/ScoopInstaller/Scoop/wiki/Pre-Post-(un)install-scripts)
@@ -142,6 +144,7 @@
 - MUST NOT 省略 `hash` 字段（安全风险）
 - MUST NOT 省略 `checkver`/`autoupdate` 字段（导致无法自动更新）
 - MUST NOT 为无命令行交互需求的纯 GUI 应用添加 `bin` 字段（避免生成 shim 污染 `PATH`）
+- MUST NOT 在 `pre_install` 中预建 `persist` 目录（Scoop 默认原生会自动按目录创建并建立软链接，禁止过度设计）
 
 ## 6. 决策原则
 
