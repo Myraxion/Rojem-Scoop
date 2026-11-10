@@ -109,6 +109,7 @@ scoop install rojem/<manifest>
 | [Max Auto Clicker](https://maxautoclicker.blogspot.com)      | maxautoclicker               | 极速且易于使用的鼠标自动点击器                                              | ❌       |
 | [Memospot](https://github.com/memospot/memospot)             | memospot                     | [Memos](https://usememos.com/) 的独立桌面版本，可本地运行Memos，也可以连接到远程 Memos 服务器 | ❌       |
 | [MineBackup](https://github.com/Leafuke/MineBackup)          | minebackup                   | Minecraft 地图存档备份与恢复 GUI 工具                                   | ❌       |
+| [Mister Download Manager](https://misterdownloadmanager.com) | mister-download-manager      | 基于 Rust 从零编写的高性能现代开源下载管理器                                    | ✔       |
 | [MoonLight 基地版](https://github.com/qiin2333/moonlight-qt) | moonlight-foundation         | 基地版[moonlight](https://github.com/moonlight-stream/moonlight-qt)客户端，支持[官方版Sunshine](https://docs.lizardbyte.dev/projects/sunshine/latest/index.html)和[基地版Sunshine](https://sunshine-foundation.vercel.app/) | ✔       |
 | [mouse jiggler](https://github.com/arkane-systems/mousejiggler) | mouse-jiggler                | “模拟”鼠标输入来回抖动                                       | 🈚️       |
 | [MouseKeyShow](https://github.com/sjhmaster/MouseKeyShow)    | mousekeyshow                 | 轻量级高性能 Windows 屏幕按键与鼠标动作实时可视化工具                              | ❌       |
