@@ -117,6 +117,7 @@ scoop install rojem/<manifest>
 | [Netcatty](https://netcatty.app/)                            | netcatty                     | 基于 Electron、React 和 xterm.js 构建的现代化 SSH 工作空间                 | ✔       |
 | [OliveTin](https://www.olivetin.app/)                        | olivetin                     | OliveTin 提供通过网络界面安全且简单地访问预定义的 shell 命令。 | ✔       |
 | [Open Internet Explorer](https://github.com/AigioL/OpenInternetExplorer) | open-internet-explorer       | 在 Windows 11 中打开 Internet Explorer                       | 🈚️       |
+| [OpenCLIApp](https://opencli.info/)                          | opencli-app                  | OpenCLI 桌面配套与系统托盘应用，内置运行环境、Browser Bridge 诊断与登录保活功能          | ❌       |
 | [OpenLogi](https://github.com/AprilNEA/OpenLogi)             | openlogi                     | 基于 Rust 的原生本地罗技 (Logitech Options+) 替代工具，支持 HID++ 按键重映射、DPI 与 SmartShift 设置 | 🈚️       |
 | [pdfannots2json](https://github.com/mgmeyers/pdfannots2json) | pdfannots2json               | 从 PDF 文件中提取注释并输出为 JSON 格式                                    | 🈚️     |
 | [PixaiTaggerOnnxGui](https://github.com/wai55555/PixaiTaggerOnnxGui) | pixai-tagger-onnx-gui        | 基于 Pixai Tagger ONNX 的本地图像自动打 Danbooru 标签 GUI 工具 | ✔       |
