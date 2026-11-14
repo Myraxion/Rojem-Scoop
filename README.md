@@ -67,6 +67,7 @@ scoop install rojem/<manifest>
 | [Dagu](https://dagu.sh)                                      | dagu                         | 轻量级无依赖的本地优先声明式 DAG 工作流引擎与调度平台                                | ✔       |
 | [DepotDownloader](https://github.com/SteamRE/DepotDownloader) | depotdownloader              | 基于 SteamKit2 库的 Steam 游戏/仓库数据包命令行下载工具                        | ❌       |
 | [DeskBox](https://deskbox.fun)                               | deskbox                      | 开源的 Windows 桌面整理与快捷栏小组件工具                                    | ❌       |
+| [Destructive Command Guard](https://github.com/Dicklesworthstone/destructive_command_guard) | destructive-command-guard    | AI 编码智能体破坏性命令拦截工具                                            | ❌       |
 | [Digital Clock](https://sourceforge.net/projects/digitalclock4/) | digital-clock-5              | 一款美观的可定制时钟，支持插件功能                           | ✔       |
 | [Dion](https://github.com/Myraxion/dion)                     | dion                         | 轻量高效的 UTF-8 descript.ion 注释管理命令行工具                           | 🈚️     |
 | [Discord](https://portapps.io/app/discord-portable/)         | discord                      | 便携版Discord客户端，并持久化[BetterDiscord](https://mwittrien.github.io/)插件 | ✔       |
