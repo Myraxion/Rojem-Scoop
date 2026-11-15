@@ -82,6 +82,7 @@ scoop install rojem/<manifest>
 | [FFmpeg Builds for yt-dlp](https://github.com/yt-dlp/FFmpeg-Builds) | ffmpeg-shared-yt-dlp-nightly | 适用于 yt-dlp 的 FFmpeg 构建，特意去除了生成shims，防止与官方 [FFmpeg](https://ffmpeg.org) 冲突 | 🈚️       |
 | [FlClash-Patched](https://github.com/chenx-dust/FlClash-Patched) | flclash-patched              | 基于 ClashMeta 的多平台代理客户端（社区补丁维护版）          | ❌       |
 | [Flood](https://flood.js.org)                               | flood                        | 适用于各类 Torrent 客户端的现代 Web UI，基于 Node.js 后端与 React 前端构建 | ❌       |
+| [Foliole](https://foliole.app)                               | foliole                      | 支持 FSRS 与本地优先的开源渐进式阅读工作空间                                    | ❌       |
 | [fuck-xxxmoe](https://github.com/chenaive/fuck-xxxmoe)       | fuck-xxxmoe                  | 提取 xxx.moe 系漫画网站 EPUB 文件中的图片，并按实际阅读顺序排序 | 🈚️       |
 | [GPUSwitch](https://github.com/JasonHu051219/GPUSwitch)      | gpuswitch                    | GPUSwitch (GPUS) - Windows 显卡切换程序。是一款为 Windows 10/11 用户设计的轻量级显卡首选项管理工具。通过“进程监听 + 动态重启”的技术方案，解决了双显卡笔记本电脑显卡切换繁琐的痛点。 | 🈚️       |
 | [GoogleTranslate_IPFinder](https://github.com/GoodCoder666/GoogleTranslate_IPFinder) | google-translate-ipfinder    | 谷歌翻译 API 服务器的 IP 扫描、测速工具                      | ❌       |
