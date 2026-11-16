@@ -131,6 +131,7 @@ scoop install rojem/<manifest>
 | [PowerRun](https://www.sordum.org/9416/)                     | powerrun                     | TrustedInstaller/NT Authority/系统相同的权限运行 regedit.exe、Cmd.exe 或其他软件 | ✔       |
 | [Prowlarr](https://prowlarr.com)                             | prowlarr                     | Usenet 和 BitTorrent 索引器管理工具，可与各类 PVR 应用无缝集成                  | ❌       |
 | [pyTranscriber](https://pytranscriber.github.io/)            | pytranscriber                | 通过友好的图形用户界面，为音频/视频文件自动生成转录/字幕     | ❌       |
+| [Quire](https://bjarneo.github.io/quire/)                    | quire                        | 基于 Markdown 文件夹的简洁本地笔记编辑器与 MCP 服务端                           | ❌       |
 | [Reader](https://github.com/binbyu/Reader)                   | reader                       | 小巧开源的 Win32 本地与在线小说/电子书阅读器                                   | ✔       |
 | [Rime Wanxiang Update Tools (PowerShell)](https://github.com/rimeinn/rime-wanxiang-update-tools) | rime-wanxiang-update-ps1     | Rime 输入法万象方案、词库、模型自动更新 PowerShell 脚本                                     | 🈚️     |
 | [Rime Wanxiang Update Tools (Python)](https://github.com/rimeinn/rime-wanxiang-update-tools) | rime-wanxiang-update-py      | Rime 输入法万象方案、词库、模型自动更新 Python 脚本                             | ✔       |
