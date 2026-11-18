@@ -1,16 +1,16 @@
 {
-    "version": "0.8.27",
+    "version": "0.8.28",
     "description": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web.",
     "homepage": "https://github.com/EKKOLearnAI/ekko-studio",
     "license": "BSL-1.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/EKKOLearnAI/ekko-studio/releases/download/v0.8.27/Ekko.Studio-0.8.27-x64.exe#/dl.7z",
-            "hash": "0e23f0dbcd0cb0a34c81d73bd3b358aa4b643c6d7ebc34641a990a202db79c8e"
+            "url": "https://github.com/EKKOLearnAI/ekko-studio/releases/download/v0.8.28/Ekko.Studio-0.8.28-x64.exe#/dl.7z",
+            "hash": "02a41d2cc5b5f34a155ccdbe9ae79b097f0ab72e712cc789f2619b09d144e7d5"
         },
         "arm64": {
-            "url": "https://github.com/EKKOLearnAI/ekko-studio/releases/download/v0.8.27/Ekko.Studio-0.8.27-arm64.exe#/dl.7z",
-            "hash": "8f56c24591edecde07eb067ee9f43987f72f8033bc9495e2b867e59692e9fc00"
+            "url": "https://github.com/EKKOLearnAI/ekko-studio/releases/download/v0.8.28/Ekko.Studio-0.8.28-arm64.exe#/dl.7z",
+            "hash": "8ee9ff3d0116830fc4fbcedc467d0b120e1a23fb750cd08641356b76cc527332"
         }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app*.7z\" \"$dir\"",
