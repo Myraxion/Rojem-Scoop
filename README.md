@@ -88,6 +88,7 @@ scoop install rojem/<manifest>
 | [GoogleTranslate_IPFinder](https://github.com/GoodCoder666/GoogleTranslate_IPFinder) | google-translate-ipfinder    | 谷歌翻译 API 服务器的 IP 扫描、测速工具                      | ❌       |
 | [Handwrite Sim](https://github.com/bamboostrip/Handwriting-sim-rs) | handwrite-sim-rs             | 高性能手写体模拟器，将文本渲染为逼真手写图片                                       | ✔       |
 | [Herdr Core](https://herdr.dev/core/)                        | herdr-core                   | 用于编码代理的持久化终端运行时                                              | ❌       |
+| [HiddenWindow](https://github.maziyang.top)                  | hiddenwindow                 | 一款为 Windows 打造的开源窗口编排工具，支持将窗口吸附隐藏至屏幕边缘并自然唤回                  | ❌       |
 | [HideTaskbar](https://github.com/sinjs/HideTaskbar)          | hidetaskbar                  | 极简的 Windows 任务栏完全隐藏工具                                        | 🈚️     |
 | [HustWebAuth](https://github.com/a76yyyy/HustWebAuth)        | hustwebauth                  | 锐捷校园网 Web 认证命令行工具                                | 🈚️       |
 | [Iceweasel](https://sourceforge.net/projects/libportable/)   | iceweasel                    | 便携版Firefox                                                | ✔       |
