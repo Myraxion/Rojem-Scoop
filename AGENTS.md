@@ -43,7 +43,7 @@
 ### 清单编写规则
 
 - MUST 包含的字段：`version`, `description`, `homepage`, `license`, `url`/`architecture`, `hash`
-- MUST 包含 `checkver` 和 `autoupdate`（保证自动更新能力）
+- MUST 包含 `checkver` 和 `autoupdate`（保证自动更新能力）；当 `homepage` 非 GitHub 仓库地址时，`checkver` MUST 使用对象形式（如 `{"github": "https://github.com/<owner>/<repo>"}`）或对应正则提取配置
 - `bin` 与 `shortcuts` 规范：
   - 纯 GUI 应用（如托盘工具、窗口小工具、图形客户端等无命令行交互需求的软件）：MUST NOT 添加 `bin` 字段，避免生成多余的 shim 垫片污染用户全局 `PATH` 环境；SHOULD 添加 `shortcuts` 字段
   - CLI 工具或提供必要命令行交互能力的软件：SHOULD 添加 `bin` 字段
@@ -82,7 +82,7 @@
 1. 确认本地 `master` 分支与远程 `origin/master` 保持同步（必要时执行 `git pull --rebase`）
 2. 阅读任务涉及的清单文件和相关脚本
 3. 分析安装包文件结构并结合开源项目源码的轻量静态检索（如 `APPDATA`、`SpecialFolder`、`BaseDirectory` 等路径读写逻辑），确认 `persist` 目标及 `Persist` 状态；若为动态生成文件，提前规划 `pre_install` 建立空文件逻辑
-4. 预先校验 `checkver` 配置，确保能准确匹配并提取到最新版本号
+4. 核对上游版本号与 tag 命名规律（如是否带 `v` 前缀），确保 `checkver` 与 `autoupdate` 模板匹配
 5. 在将清单正式添加进 bucket 前，向用户列出拟定的各 Scoop Manifest 字段内容，供用户确认无误后再写入文件
 
 ### 小型修改（单个清单的新增/更新）
@@ -109,8 +109,9 @@
 
 1. 运行 `.\bin\formatjson.ps1` 确保清单 JSON 格式正确且无报错
 2. 运行 `.\bin\test.ps1` 确保所有测试通过且无报错
-3. 没有修改与任务无关的文件，没有遗留临时代码或调试输出
-4. 确认提交内容不包含敏感信息
+3. 对新增或修改的清单，运行 `.\bin\checkver.ps1 -App <manifest>` 与 `.\bin\checkurls.ps1 -App <manifest>` 确保自动更新与 URL 可达性通过
+4. 没有修改与任务无关的文件，没有遗留临时代码或调试输出
+5. 确认提交内容不包含敏感信息
 
 ## 4. 验证规则
 
@@ -123,9 +124,9 @@
 # Scoop 官方工具
 .\bin\formatjson.ps1       # JSON 格式验证
 .\bin\test.ps1             # Pester 测试
-.\bin\checkver.ps1         # 版本检查
-.\bin\checkhashes.ps1      # 哈希验证
-.\bin\checkurls.ps1        # URL 可达性检查
+.\bin\checkver.ps1 -App <manifest>   # 单个清单版本检查（避免全量触发限流）
+.\bin\checkhashes.ps1 -App <manifest> # 单个清单哈希验证
+.\bin\checkurls.ps1 -App <manifest>   # 单个清单 URL 可达性检查
 ```
 
 ### 验证脚本运行环境
