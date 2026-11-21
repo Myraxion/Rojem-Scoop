@@ -51,6 +51,7 @@
 - 持久化初始化规则：
   - 文件（MUST）：当 `persist` 目标为动态生成的文件时，因 Scoop 默认会误建为目录，MUST 在 `pre_install` 中建立空文件（需带 `-Force` 以确保自动创建父级目录）
   - 目录（MUST NOT）：Scoop 默认会自动按目录创建并建立软链接，MUST NOT 在 `pre_install` 中多余预建目录，避免过度设计
+- 应用专属持久化环境变量（`env_set`）规范：当应用支持通过专属环境变量（如 `DAGU_HOME`、`AGENT_PURGE_HOME`）重定向数据目录以实现便携化持久化时，SHOULD 保留 `env_set` 并配合 `persist` 使用，且路径 SHOULD 直接指向 `"$persist_dir"` 或 `"$persist_dir\\<subdir>"`（而非 `"$dir\\..."`），以避开目录联接兼容隐患并保持版本升级时路径稳定
 - 字段详细说明参考 [App-Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
 - 自动更新配置参考 [App-Manifest-Autoupdate](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate)
 - 安装脚本可用变量参考 [Pre-Post-(un)install-scripts](https://github.com/ScoopInstaller/Scoop/wiki/Pre-Post-(un)install-scripts)
