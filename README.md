@@ -38,6 +38,7 @@ scoop install rojem/<manifest>
 | [7-zip-zstd Codecs](https://github.com/mcmilk/7-Zip-zstd)    | 7zip-zstd-codecs             | 为`main` [7-Zip](https://www.7-zip.org/) 添加附加编解码器，包括`Zstandard`、`Brotli`、`Lz4`、`Lz5`和`Lizard` | 🈚️       |
 | [7-Zip-zstd TotalCmd](https://github.com/mcmilk/7-Zip-zstd)  | 7zip-zstd-totalcmd           | 替换 [Total Commander](https://www.ghisler.com/) 的`tc7z.dll` ，支持 [7-Zip](https://www.7-zip.org/) 的Zstandard（`Zstd`、`Brotli`、`Lz4`、`Lz5`、`Lizard`）格式 | 🈚️       |
 | [AF Media Bar](https://github.com/Fervent-Tempo/AF-Media-Bar) | af-media-bar                 | Windows 10/11 桌面媒体控制与轻度美化工具                                  | ❌       |
+| [agent-purge](https://github.com/ZiChuanLan/agent-purge)     | agent-purge                  | 本地提示词与人设编排控制台，为 Codex、Claude Code、OpenCode 等多个 coding agent 提供统一的人设管理与切换入口 | ✔       |
 | [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe/releases)    | ahk2exe                      | 官方的 [AutoHotkey](https://www.autohotkey.com/) 脚本编译器  | 🈚️       |
 | [Apollo Profile Manager](https://github.com/ClassicOldSong/ApolloProfileManager) | apollo-profile-manager       | 管理和自动交换 [Apollo](https://github.com/ClassicOldSong/Apollo)不同客户端之间的游戏配置文件、存档文件、模组集和其他用户数据的工具 | ✔       |
 | [AstraGram](https://github.com/Kindness-Kismet/AstraGram-Desktop) | astragram                    | 基于 Telegram Desktop / AyuGram 的增强客户端，支持卡片式现代 UI 与自定义设置       | ✔       |
