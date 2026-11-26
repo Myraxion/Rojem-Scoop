@@ -171,6 +171,7 @@ scoop install rojem/<manifest>
 | [WinTray](https://github.com/OUBIGFA/WinTray)                | wintray                      | 把任意 Windows 程序自启动最小化到托盘或后台启动                                 | ❌       |
 | [Wordweave](https://github.com/Myraxion/wordweave)           | wordweave                    | 本地运行的个人英文生词本，支持收录、词条辨析与复习                                    | ✔       |
 | [WorkBuddy](https://www.codebuddy.cn)                        | workbuddy-cn                 | 腾讯全场景 AI 工作台（国内版）                                            | ❌    |
+| [WorkDaddy](https://github.com/babygoton/WorkDaddy)          | workdaddy                    | WorkBuddy 桌面端增强助手，支持多账号切换、会话迁移与自动化任务                         | ❌       |
 | [wsw](https://github.com/ferama/wsw)                         | wsw                          | 小巧实用的 Windows 服务包装工具，可将任意可执行程序注册为系统服务                        | ❌       |
 | [XiaoYao_QuickJump](https://github.com/lch319/XiaoYao_QuickJump) | xiaoyao-quickjump            | 在打开或保存对话框中，快速跳转到当前 资源管理器/TC/DO/XY/Q-Dir中打开的文件夹路径 | ✔       |
 | [YueYuan](https://github.com/hiforrest/yueyuan)              | yueyuan                      | 基于霞鹜 975 圆与 Dongle 制作的开源中文字体修改版                              | 🈚️     |
