@@ -147,6 +147,7 @@
 - MUST NOT 省略 `checkver`/`autoupdate` 字段（导致无法自动更新）
 - MUST NOT 为无命令行交互需求的纯 GUI 应用添加 `bin` 字段（避免生成 shim 污染 `PATH`）
 - MUST NOT 在 `pre_install` 中预建 `persist` 目录（Scoop 默认原生会自动按目录创建并建立软链接，禁止过度设计）
+- MUST NOT 添加非必要的 `post_uninstall` 清理逻辑（如擅自删除 `%APPDATA%` 等安装目录外的用户数据，保持最小干预原则）
 
 ## 6. 决策原则
 
