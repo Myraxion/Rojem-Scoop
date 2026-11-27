@@ -168,6 +168,7 @@ scoop install rojem/<manifest>
 | [Wanxiang Tools](https://github.com/amzxyz/RIME-LMDG)        | wanxiang-tools               | 万象词库、刷拼音、辅助码与方案在线更新 GUI 桌面端工具                                | ❌       |
 | [WhoShitsonMyC](https://github.com/Kami958/WhoShitsonMyC)     | whoshitsonmyc                | 磁盘空间变化对比轻量小工具                                   | ❌       |
 | [Win11Debloat](https://github.com/Raphire/Win11Debloat)      | win11debloat                 | 轻量易用的 Windows 10/11 预装软件卸载、遥测禁用与系统深度精简优化工具                   | ✔       |
+| [WinSizeX](https://winsizex.x2m.net/)                        | winsizex                     | Windows 窗口九宫格布局与置顶工具（支持托盘与命令行）                               | ✔       |
 | [WinTray](https://github.com/OUBIGFA/WinTray)                | wintray                      | 把任意 Windows 程序自启动最小化到托盘或后台启动                                 | ❌       |
 | [Wordweave](https://github.com/Myraxion/wordweave)           | wordweave                    | 本地运行的个人英文生词本，支持收录、词条辨析与复习                                    | ✔       |
 | [WorkBuddy](https://www.codebuddy.cn)                        | workbuddy-cn                 | 腾讯全场景 AI 工作台（国内版）                                            | ❌    |
